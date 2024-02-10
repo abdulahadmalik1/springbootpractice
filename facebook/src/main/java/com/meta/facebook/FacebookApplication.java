@@ -9,7 +9,7 @@ public class FacebookApplication {
 	public static void main(String[] args) {
 		// Run the Spring application and get the application context
 		var a= SpringApplication.run(FacebookApplication.class, args);
-		var a2=a.getBean(check.class);
-		System.out.println("No prob solvd");
+		var a2=(car) a.getBean("honda");
+		System.out.print(a2.getName());
 	}
 }
