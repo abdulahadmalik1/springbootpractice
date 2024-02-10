@@ -10,6 +10,6 @@ public class FacebookApplication {
 		// Run the Spring application and get the application context
 		var a= SpringApplication.run(FacebookApplication.class, args);
 		var a2=a.getBean(check.class);
-		System.out.println("No problem solvd");
+		System.out.println("No prob solvd");
 	}
 }
