@@ -8,8 +8,9 @@ import java.util.UUID;
 @Configuration
 public class UniqueIdBeanConfig {
 
-    @Bean("unique")
-    public UUID generateUniqueId() {
-        return UUID.randomUUID();
-    }
+   @Bean("id")
+    String getId()
+   {
+       return "1";
+   }
 }
